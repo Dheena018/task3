@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+.main{
+    width: 63rem;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+}
+body{
+background-color:  hsl(0, 0%, 95%);
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: center;
+font-family: 'Lexend Deca', sans-serif;
+}
+.card{
+    width: 63rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem;
+    border-radius: 20px;
+}
+.card-one{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card-one-title{
+    font-family: 'Big Shoulders Display',sans-serif;
+    color:  hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-img-one{
+    width: 6rem;
+}
+.card-one-para{
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.submit{
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: hsl(31, 77%, 52%);
+    border: none;
+}
+.card-two{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: hsl(184, 100%, 22%);
+}
+.card-two-title{
+    font-family: 'Big Shoulders Display',sans-serif;
+    color:  hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-img-two{
+    width: 6rem;
+}
+.card-two-para{
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.submit-one{
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: hsl(184, 100%, 22%);
+    border: none;
+}
+.card-three{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: hsl(179, 100%, 13%);
+}
+.card-img-three{
+    width: 6rem;
+}
+.card-three-title{
+    font-family: 'Big Shoulders Display',sans-serif;
+    color:  hsl(0, 0%, 95%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.card-three-para{
+    font-family: 'Lexend Deca',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.submit-two{
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color:  hsl(179, 100%, 13%);
+    border: none;
+}
